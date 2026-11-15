@@ -1,17 +1,21 @@
-import Navbar from "./Navbar";
-import Hero from "./Hero";
-import AboutAndSkills from "./AboutAndSkills";
-import Projects from "./Projects";
-import ContactAndFooter from "./ContactAndFooter";
+import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";
+import About from "@/components/About";
+import Skills from "@/components/Skills";
+import Projects from "@/components/Projects";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main className="bg-slate-50 min-h-screen text-slate-800 antialiased selection:bg-sky-500 selection:text-white">
+    <main className="bg-ink text-slate-50 antialiased selection:bg-lime-400 selection:text-ink">
       <Navbar />
       <Hero />
-      <AboutAndSkills />
+      <About />
+      <Skills />
       <Projects />
-      <ContactAndFooter />
+      <Contact />
+      <Footer />
     </main>
   );
 }
