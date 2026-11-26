@@ -27,6 +27,31 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    slug: "mentorlagbe",
+    name: "MentorLagbe",
+    summary:
+      "A full-stack tuition and mentorship platform with multi-role dashboards, Better Auth authentication, and Stripe Pro upgrades.",
+    description: null,
+    techStack: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Better Auth",
+      "Stripe",
+      "Tailwind CSS",
+      "shadcn/ui",
+    ],
+    image: "/images/mentorlagbe.png",
+    liveUrl: "https://mentorlagbe-client-g8ov.vercel.app",
+    repoUrl: "https://github.com/Asrafuz01/mentorlagbe-client",
+    challenges: null,
+    futurePlans: null,
+    featured: true,
+  },
+  {
     slug: "fitlog",
     name: "FitLog",
     // Verified: live site, repo, package.json (next/react/daisyui/tailwindcss),

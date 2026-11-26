@@ -13,7 +13,7 @@ export const site = {
   profileImage: "/images/profile.png",
   resume: {
     // Google Drive link — opens the Drive preview in a new tab, not a direct download.
-    url: "https://drive.google.com/file/d/1BFYfdA8Y1mh2AWFT1JOoB0ca4LsQzlfK/view?usp=sharing",
+    url: "https://drive.google.com/file/d/1rgjHh5-rcFvqXeHwFRexgiEAWaVEvdtz/view?usp=drive_link",
     ready: true,
   },
   socials: {
