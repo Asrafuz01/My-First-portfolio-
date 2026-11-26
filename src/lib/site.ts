@@ -40,7 +40,7 @@ export interface SkillGroup {
 }
 
 export const skillGroups: SkillGroup[] = [
-  {
+ {
     title: "Frontend",
     skills: [
       "HTML5",
@@ -51,17 +51,31 @@ export const skillGroups: SkillGroup[] = [
       "Next.js (App Router)",
       "Tailwind CSS",
       "daisyUI",
-      "Flexbox & CSS Grid",
+      "shadcn/ui",
       "Responsive Web Design",
     ],
   },
   {
-    title: "APIs & Data",
-    skills: ["REST API Integration"],
+    title: "Backend & Database",
+    skills: [
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "PostgreSQL",
+      "REST APIs",
+    ],
   },
   {
-    title: "Tools",
-    skills: ["Git & GitHub"],
+    title: "Auth, Payments & Tools",
+    skills: [
+      "Better Auth",
+      "JWT",
+      "Stripe",
+      "ImgBB",
+      "Git & GitHub",
+      "Postman",
+      "Vercel",
+    ],
   },
 ];
 
